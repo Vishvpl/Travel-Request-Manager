@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Return Date valid</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var depart = g_form.getValue('departure_date');
+
+if (!depart)
+return;
+
+var depDate = new Date(depart);
+var retDate = new Date(newValue);
+
+if (retDate < depDate) {
+g_form.showFieldMsg(
+'date',
+'Return Date cannot be before Departure Date',
+'error'
+);
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 09:29:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4df0e8f46df303107f4463b8503b3bd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Date valid</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">d12a632c6d3303107f4463b8503b3b14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">d12a632c6d3303107f4463b8503b3b14</sys_scope>
+        <sys_update_name>sys_script_client_4df0e8f46df303107f4463b8503b3bd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 09:29:26</sys_updated_on>
+        <table>x_cdltd_travel_r_0_travel_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

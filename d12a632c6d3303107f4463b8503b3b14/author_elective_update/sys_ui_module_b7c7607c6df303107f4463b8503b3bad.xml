@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="a">b3c7607c6df303107f4463b8503b3bac</application>
+        <filter/>
+        <name>as</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_cdltd_travel_r_0.a_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 09:57:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7c7607c6df303107f4463b8503b3bad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>as</sys_name>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">d12a632c6d3303107f4463b8503b3b14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">d12a632c6d3303107f4463b8503b3b14</sys_scope>
+        <sys_update_name>sys_ui_module_b7c7607c6df303107f4463b8503b3bad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 09:57:07</sys_updated_on>
+        <table>x_cdltd_travel_r_0_a</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Request Manager">d12a632c6d3303107f4463b8503b3b14</application>
+        <file_path/>
+        <instance_id>8b7ca316c3234b94a03197af050131a6</instance_id>
+        <instance_name>nowlearning-nlinst04733598-8uw7q-0001</instance_name>
+        <name>sys_ui_module_b7c7607c6df303107f4463b8503b3bad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="a">b3c7607c6df303107f4463b8503b3bac</application><filter/><name>as</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_cdltd_travel_r_0.a_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-05 09:57:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b7c7607c6df303107f4463b8503b3bad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>as</sys_name><sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">d12a632c6d3303107f4463b8503b3b14</sys_package><sys_policy/><sys_scope display_value="Travel Request Manager">d12a632c6d3303107f4463b8503b3b14</sys_scope><sys_update_name>sys_ui_module_b7c7607c6df303107f4463b8503b3bad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-05 09:57:07</sys_updated_on><table>x_cdltd_travel_r_0_a</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1221440262</payload_hash>
+        <record_name>as</record_name>
+        <reverted_from/>
+        <source>5d2a632c6d3303107f4463b8503b3b15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 09:57:07</sys_created_on>
+        <sys_id>b7c7607c6df303107f4463b8503b3bae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a10b7ee42d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 09:57:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>33c7607c9af303101e5b8cca72ce75ae</update_guid>
+        <update_guid_history>33c7607c9af303101e5b8cca72ce75ae:1221440262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 09:58:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>105582b36c184faa88839b2d99fcfa89</sys_id>
+        <sys_metadata>b7c7607c6df303107f4463b8503b3bad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>as</sys_name>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">d12a632c6d3303107f4463b8503b3b14</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">d12a632c6d3303107f4463b8503b3b14</sys_scope>
+        <sys_scope_delete display_value="">05d53dc1f8064f88807fac817cba2040</sys_scope_delete>
+        <sys_update_name>sys_ui_module_b7c7607c6df303107f4463b8503b3bad</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_b7c7607c6df303107f4463b8503b3bad">b7c7607c6df303107f4463b8503b3bae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 09:58:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

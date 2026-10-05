@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_cdltd_travel_r_0_travel_request">travel_type=International^visa_required=true<item display_value="International" endquery="false" field="travel_type" goto="false" newquery="false" operator="=" or="false" value="International"/>
+            <item endquery="false" field="visa_required" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Visa Details visible and mandatory</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 08:55:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15a9dc706df303107f4463b8503b3ba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visa Details visible and mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">d12a632c6d3303107f4463b8503b3b14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">d12a632c6d3303107f4463b8503b3b14</sys_scope>
+        <sys_update_name>sys_ui_policy_15a9dc706df303107f4463b8503b3ba4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 08:55:14</sys_updated_on>
+        <table>x_cdltd_travel_r_0_travel_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
